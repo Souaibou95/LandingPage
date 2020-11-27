@@ -1,0 +1,90 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+
+  background-image: url("year.png");
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.yearup {
+  font-family:sans-serif;
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: #35f0e9;
+
+}
+.navi {
+  font-size: 25px;
+
+  margin: auto;
+  text-align: center;
+
+}
+
+li{
+  list-style-type: none;
+
+  display:inline;
+  position: relative;
+   padding-left: 60px;
+
+}
+#clock {
+  background-color: #717878;
+
+  color: #35f0e9;
+  font-family: Ariel;
+  font-size: 30px;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  border: 2px solid #b2a6e3;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+.center {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+.sign {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  color:  #35f0e9;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+#c {
+  text-align: center;
+}
+button:hover {
+  opacity: 0.8;
+}
+label {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
